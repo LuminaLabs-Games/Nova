@@ -1,0 +1,19 @@
+# The Nova Development place's own packages, as a game would declare them. Nova and NovaData come
+# from this repo's src/ and data/src/ (dev.project.json); this installs what they depend on.
+[package]
+name = "luminalabsgames/nova-development"
+version = "0.0.0"
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+private = true
+
+[dependencies]
+Trove = "sleitnick/trove@1.8.0"
+ReplicaServer = "luminalabsgames/replicaserver@1.0.3"
+ReplicaClient = "luminalabsgames/replicaclient@1.0.1"
+# ReplicaServer and ReplicaClient 1.0.x require ReplicatedStorage.Packages.ReplicaShared by path,
+# so a game must list it itself (a dependency's dependency gets no link in Packages).
+ReplicaShared = "luminalabsgames/replicashared@1.0.0"
+
+[server-dependencies]
+ProfileStore = "lm-loleris/profilestore@1.0.3"

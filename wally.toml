@@ -1,0 +1,12 @@
+[package]
+name = "luminalabsgames/nova"
+description = "Shard v2: one boot order, isolated failures, live feature flags, a typed event bus and buffer-packed networking"
+version = "0.1.0"
+license = "MIT"
+authors = ["LuminaLabsGames"]
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+exclude = ["build", "dev", "data", "scripts", "Packages", "dev.project.json", "rokit.toml", "wally.lock", ".gitignore"]
+
+[dependencies]
+Trove = "sleitnick/trove@1.8.0"

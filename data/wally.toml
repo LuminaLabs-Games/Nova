@@ -1,0 +1,13 @@
+[package]
+name = "luminalabsgames/novadata"
+description = "The starter player data layer: ProfileStore sessions replicated with Replica, receipts, messages, migrations and resets"
+version = "0.1.0"
+license = "MIT"
+authors = ["LuminaLabsGames"]
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+exclude = ["Packages", "wally.lock"]
+
+[dependencies]
+ReplicaServer = "luminalabsgames/replicaserver@1.0.3"
+ReplicaClient = "luminalabsgames/replicaclient@1.0.1"

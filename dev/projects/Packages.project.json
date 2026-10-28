@@ -1,0 +1,9 @@
+{
+  "name": "Packages",
+  "tree": {
+    "$className": "Folder",
+    "$path": "../Packages",
+    "Nova": { "$path": "../../src" },
+    "NovaData": { "$path": "../../data/src" }
+  }
+}

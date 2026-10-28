@@ -1,0 +1,21 @@
+{
+  "name": "Nova Development",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Packages": {
+        "$path": "dev/Packages",
+        "Nova": { "$path": "src" },
+        "NovaData": { "$path": "data/src" }
+      },
+      "Shared": { "$path": "dev/Shared" }
+    },
+    "ServerScriptService": {
+      "$path": "dev/Server",
+      "ServerPackages": { "$path": "dev/ServerPackages" }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": { "$path": "dev/Client" }
+    }
+  }
+}
