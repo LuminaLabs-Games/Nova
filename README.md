@@ -13,7 +13,9 @@ Nova = "luminalabsgames/nova@0.1.0"
 
 Nova's only dependency is `sleitnick/trove`. The player data layer is a separate package in this
 repo, [NovaData](data/README.md) (`luminalabsgames/novadata`). It runs in Nova's `before` hook on
-the server and its `after` hook on the client.
+the server and its `after` hook on the client. The repo also publishes LuminaLabs' patched
+[Iris](iris/README.md) (`luminalabsgames/iris`) for debug and admin UI, used in place of
+`sirmallard/iris`. Nova does not depend on it.
 
 ## A game's layout
 

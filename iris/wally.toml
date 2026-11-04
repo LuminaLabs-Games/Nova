@@ -1,0 +1,9 @@
+[package]
+name = "luminalabsgames/iris"
+description = "SirMallard/iris 2.5.1 plus upstream main's later fixes and LuminaLabs patches: combos and other hit tests stay aligned when Iris loads before the topbar, late tabs show the right page, crowded tab bars scroll, and new widgets keep their call order"
+version = "2.5.3"
+license = "MIT"
+authors = ["Michael-48", "SirMallard", "LuminaLabsGames"]
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+exclude = ["Packages", "wally.lock"]

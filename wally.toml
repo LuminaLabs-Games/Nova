@@ -6,7 +6,7 @@ license = "MIT"
 authors = ["LuminaLabsGames"]
 realm = "shared"
 registry = "https://github.com/UpliftGames/wally-index"
-exclude = ["build", "dev", "data", "scripts", "Packages", "dev.project.json", "rokit.toml", "wally.lock", ".gitignore"]
+exclude = ["build", "dev", "data", "iris", "scripts", "Packages", "dev.project.json", "rokit.toml", "wally.lock", ".gitignore"]
 
 [dependencies]
 Trove = "sleitnick/trove@1.8.0"
